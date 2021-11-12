@@ -1,0 +1,15 @@
+.footer{
+    width: 100%;
+    max-width: 1100px;
+    margin: 10px auto;
+    border-top: 1px solid #DEDEDE;
+    display: flex;
+    justify-content: space-between;
+    span{
+        display: block;
+    }
+    .footer-left{
+    border-right: 1px solid #DEDEDE;
+    padding-right:60px
+    }
+}

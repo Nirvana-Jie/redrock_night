@@ -1,0 +1,17 @@
+.aboutInner{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    .session{
+        color: #FFFFFF;
+        border-bottom: 1px solid #DEDEDE;
+        .title{
+            font-family: Microsoft YaHei;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 48px;
+            color: #FFFFFF;
+        }
+    }
+}
