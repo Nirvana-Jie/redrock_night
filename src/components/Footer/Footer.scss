@@ -1,15 +1,116 @@
 .footer{
+    position:relative;
+    bottom:0;
     width: 100%;
-    max-width: 1100px;
-    margin: 10px auto;
-    border-top: 1px solid #DEDEDE;
-    display: flex;
-    justify-content: space-between;
-    span{
-        display: block;
+    height: 289px;
+    background-color:  #000C24;
+    .footer_content{
+        max-width: 992px;
+        width: 100%;
+        margin: 0px auto;
+        padding-top: 44px;
+        overflow: hidden;
+        .footer-left{
+            width:157px;
+            float: left;
+            .logo{
+                a{
+                    text-align: right;
+                    padding-right: 20px;
+                    display: inline-block;
+                    height: 40px;
+                    width: 157px;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            .line1{
+                margin-top:25px;
+                margin-left: 2px;
+                width: 42px;
+                height: 4px;
+                background-color: #002266;
+            }
+            .content1{
+                margin-top:12px;
+                width:84px;
+                height:42px;
+                font-family: Microsoft YaHei;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 21px;
+                color: #FFFFFF;
+                opacity: 0.6;
+            }
+        }
+        .footer-middle{
+            float: left;
+            display: flex;
+            margin-left: 125px;
+            flex-direction: column;
+            span{
+                font-family: Microsoft YaHei;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                color: #FFFFFF;
+                opacity: 0.6;
+                margin-top: 10px;
+            }
+            a{
+                width:64px;
+                height:21px;
+                font-family: Microsoft YaHei;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 21px;
+                color: #FFFFFF;
+            }
+            a:nth-last-child(1),a:nth-last-child(2){
+                margin-top: 25px;
+            }
+        }
+        .footer-right{
+            float: right;
+            width:120px;
+            height:120px;
+            img{
+                width: 100%;
+            }
+        }
+        
     }
-    .footer-left{
-    border-right: 1px solid #DEDEDE;
-    padding-right:60px
+    .line2{
+        width: 992px;
+        height: 2px;
+        left: 224px;
+        top: 741px;
+        background: #FFFFFF;
+        opacity: 0.2;
+        margin:35px auto 10px auto;
     }
+    .end{
+        width:539px;
+        height:18px;
+        margin-left:204px ;
+        span{
+            font-family: Microsoft YaHei;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+            opacity: 0.2;
+            padding: 0 20px
+        }
+        span:first-child{
+            border-right: 1px solid #FFFFFF;
+        }
+
+    }
+
 }

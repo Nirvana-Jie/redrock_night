@@ -1,0 +1,30 @@
+.session{
+    color: #FFFFFF;
+    .title{
+        font-family: Microsoft YaHei;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 37px;
+        color: #FFFFFF;
+    }
+    .content{
+        max-width: 992px;
+        margin:41px 0  89px 0;
+        .content_inner{
+            max-width: 992px;
+            min-width: 300px;
+            width:100%;
+            margin-top:21px;
+            font-family: Microsoft YaHei;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 21px;
+            color: #FFFFFF;
+            li{
+                margin-left:18px
+            }
+        }
+    }
+}

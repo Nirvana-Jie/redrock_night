@@ -1,15 +1,13 @@
 .aboutInner{
     width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    .session{
-        color: #FFFFFF;
-        border-bottom: 1px solid #DEDEDE;
-        .title{
+    max-width: 992px;
+    margin: 51px auto 0 auto;
+    .whom{
+        span{
             font-family: Microsoft YaHei;
             font-style: normal;
             font-weight: bold;
-            font-size: 30px;
+            font-size: 36px;
             line-height: 48px;
             color: #FFFFFF;
         }
