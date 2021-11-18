@@ -4,8 +4,10 @@ import "./Faq.scss"
 import {faq} from "../../data"
 import randomSort from "../../api/randomSort"
 import { SwiperSlide } from "swiper/react";
+import ladder from "../../assets/images/Union2.png"
 
 export default function Faq() {
+    console.log(window.location);
 
     return (
         <div className="faqInner">
@@ -24,6 +26,9 @@ export default function Faq() {
                      })
                  }
              </Swip>
+             <div className="ladder">
+                <img src={ladder} alt=""></img>
+            </div>
 
              
         </div>

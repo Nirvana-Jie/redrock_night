@@ -1,11 +1,11 @@
 import React from 'react'
-import "./Share.scss"
 import Unopen from '../../components/Unopen/Unopen'
+import "./Apply.scss"
 
-export default function Share() {
+export default function Apply() {
     return (
-        <div className="shareInner">
-           <Unopen/>
+        <div className="applyInner">
+            <Unopen/>
         </div>
     )
 }

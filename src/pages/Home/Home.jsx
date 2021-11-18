@@ -13,8 +13,7 @@ export default function Home() {
         <div className="homeInner">
             <section className="introduction">
                 <div className="session-inner">
-                    <div>与新世界对话，为新技术发声</div>
-                    <ButtonLink>报名参加极客峰会</ButtonLink>
+                    <ButtonLink className="sign-up" to="/appointment">立即报名</ButtonLink>
                     <span>线上预约报名时间：2021年11月20号-27号</span>
                 </div>
             </section>

@@ -117,6 +117,6 @@ deploy_prod:
     - kubectl apply -f /deploy.yaml
   environment:
     name: $REPO_NAME-prod
-    url: https://$NAMESPACE.redrock.team/$REPO_NAME
+    url: https://geek.cqupt.edu.cn/
   only:
     - master

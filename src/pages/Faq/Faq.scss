@@ -17,7 +17,6 @@
         }
     }
     p{
-        width: 134px;
         font-family: Microsoft YaHei;
         font-style: normal;
         font-weight: bold;
@@ -53,6 +52,19 @@
             font-size: 16px;
             line-height: 24px;
             color: #666666;
+            a{
+                color:#0EC2A0
+            }
+        }
+    }
+    .ladder {
+        position: absolute;
+        width: 955.45px;
+        height:255.24px;
+        right:0px;
+        top:353px;
+        img {
+            width: 100%;
         }
     }
 }

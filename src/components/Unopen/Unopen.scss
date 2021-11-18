@@ -1,0 +1,26 @@
+.unopen-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .groups{
+        width:497px;
+        height:377px;
+        img{
+            width: 100%
+        }
+    }
+    .unopen-content {
+        margin-top:40px;
+        text-align: center;
+        width: 432px;
+        height: 24px;
+        font-family: Microsoft YaHei;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        
+    }
+
+}

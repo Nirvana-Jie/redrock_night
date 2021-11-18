@@ -23,9 +23,15 @@ a{
             width: 100%;
         }
     }
-    .links li{
+    .links{
+        .header-active{
+            opacity: 1;
+            border-bottom: 3px solid #FFFFFF;
+        }
+        li{
         float: left;
         padding: 24px 0 0 10px;
+        list-style: none;
         a{
             font-family: Microsoft YaHei;
             font-style: normal;
@@ -34,12 +40,13 @@ a{
             line-height: 24px;
             color: #FFFFFF;
             opacity: 0.6;
+            padding-bottom: 5px;
             margin: 0 13px 0 0;
+           
         }
     }
-    a.active{
-        color:aqua;
-    }
+}
+    
     .message{
        text-align: right;
        height: 60px;

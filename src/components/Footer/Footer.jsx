@@ -19,8 +19,8 @@ export default function Footer() {
                 </div>
                 <div className="footer-middle">
                     <Link>联系我们</Link>
-                    <span>邮箱：hr@geeksummit.cn</span>
-                    <Link>极客申请</Link>
+                    <span>邮箱： fanghongtao@redrock.team</span>
+                    <Link to="/apply">极客申请</Link>
                     <Link>极客咨询</Link>
                 </div>
                 <div className="footer-right">
@@ -30,7 +30,7 @@ export default function Footer() {
             <div className="line2"></div>
             <div className="end">
                 <span>COPYRIGHT&nbsp;@&nbsp;红岩网校工作站</span>
-                <span> 主板:&nbsp;重庆邮电大学创新创业 x 红岩网校</span>
+                <span> 主办:&nbsp;重庆邮电大学创新创业 x 红岩网校</span>
             </div>
         </footer>
     )

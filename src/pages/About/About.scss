@@ -3,13 +3,41 @@
     max-width: 992px;
     margin: 51px auto 0 auto;
     .whom{
-        span{
+       .whom-title{
+           width: 189px;
+           height:48px;
+           img{
+               width: 100%;
+           }
+       }
+       .whom-inner{
+           margin-top:56px;
+           div{
             font-family: Microsoft YaHei;
             font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            line-height: 48px;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 21px;
             color: #FFFFFF;
-        }
+           }
+           .whom-context{
+                height:340px;
+                background-image: url(../../assets/images/Group18.png);
+                background-size: cover;
+                margin-bottom:104px;
+                p{
+                    font-family: Microsoft YaHei;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #366EFF;
+                    padding-top: 20px;
+                }
+                p:first-child{
+                    padding-top:30px
+                }
+           }
+       }
     }
 }
