@@ -6,9 +6,11 @@ import GeekSharing from "../../components/GeekSharing/GeekSharing";
 import randomSort from "../../api/randomSort"
 import {geekSharing} from "../../data/index"
 import { SwiperSlide } from "swiper/react";
+import useScrollToTop from '../../hooks/useScrollToTop';
 
 
 export default function Home() {
+    useScrollToTop()
     return (
         <div className="homeInner">
             <section className="introduction">

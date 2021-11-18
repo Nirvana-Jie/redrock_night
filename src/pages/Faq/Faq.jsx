@@ -5,10 +5,10 @@ import {faq} from "../../data"
 import randomSort from "../../api/randomSort"
 import { SwiperSlide } from "swiper/react";
 import ladder from "../../assets/images/Union2.png"
+import useScrollToTop from '../../hooks/useScrollToTop'
 
 export default function Faq() {
-    console.log(window.location);
-
+    useScrollToTop()
     return (
         <div className="faqInner">
              <p>极客Q&A</p>

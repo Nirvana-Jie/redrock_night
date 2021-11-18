@@ -2,7 +2,7 @@ import React from 'react'
 import "./Footer.scss"
 import {Link} from "react-router-dom"
 import logo from "../../assets/images/logo.png"
-import logo2 from "../../assets/images/bus.png"
+import logo2 from "../../assets/images/二维码.png"
 
 export default function Footer() {
     return (

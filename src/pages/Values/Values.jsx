@@ -4,9 +4,11 @@ import Session from '../../components/Session/Session'
 import { valuescontent } from '../../data'
 import circular from '../../assets/images/Group23.png'
 import ladder from "../../assets/images/Union2.png"
+import useScrollToTop from '../../hooks/useScrollToTop'
 
 
 export default function Values() {
+    useScrollToTop()
     return (
         <div className="valuesInner">
             <div className="sphere">

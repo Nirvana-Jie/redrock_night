@@ -3,7 +3,6 @@ import "./GeekSharing.scss"
 import Union from "../../assets/images/Union.png"
 
 export default function GeekSharing(props) {
-  console.log(props);
     return (
         <div className="sharing">
           <div className="sharing-intro">

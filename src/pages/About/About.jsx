@@ -4,8 +4,10 @@ import "./About.scss"
 import {aboutcontent} from "../../data"
 import Session from '../../components/Session/Session'
 import whom from "../../assets/images/whom.png"
+import useScrollToTop from '../../hooks/useScrollToTop'
 
 export default function About() {
+    useScrollToTop()
     return (
         <div className="aboutInner">
         <div className="whom">
