@@ -1,5 +1,72 @@
 .appointmentInner {
-    max-width: 992px;
+    max-width: 1440px;
     width: 100%;
-    margin: 51px auto 103px auto;
+    height: 635px;
+    background-image: url(../../assets/images/Frame6.png);
+    background-size: cover;
+    position: relative;
+
+    .appointmentBox {
+        background-color: #F0F5FF;
+        position: absolute;
+        width: 404px;
+        height: 464px;
+        top: 60px;
+        right: 266px;
+
+        .boxInner {
+            max-width: 320px;
+            width: 100%;
+            margin: 44px auto;
+            p:first-child {
+                font-family: Microsoft YaHei;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 22px;
+                line-height: 29px;
+                color: #333333;
+            }
+            p:nth-child(2){
+                margin-top:11px;
+                font-family: Microsoft YaHei;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                color: #999999;
+            }
+            input{
+                background-color: transparent;
+                width: 100%;
+                height: 44px;
+                opacity: 0.4;
+                border: 1px solid #000000;
+                box-sizing: border-box;
+                border-radius: 2px;
+                padding-left: 26px;
+                margin-top:20px;
+                font-family: Microsoft YaHei;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 21px;
+                color: #666666;
+            }
+            input[name="name"]{
+                margin-top: 44px;
+            }
+            .submit{
+                margin-top:40px;
+                background: #0047FF;
+                opacity:1;
+                border: none;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 24px;
+                color: #FFFFFF;
+                padding-left: 0px;
+            }
+            
+        }
+    }
 }
