@@ -7,8 +7,6 @@ export default function Appointment() {
     const {
         register,
         handleSubmit,
-        watch,
-        formState: { errors }
       } = useForm();
       const onSubmit = (data) => {
         console.log(JSON.stringify(data));
