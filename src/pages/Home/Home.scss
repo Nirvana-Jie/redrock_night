@@ -94,11 +94,7 @@
                 align-items: center;
             }
             .swiper-slide{
-                transform: scale(0.9);
                 transition: 1500ms;
-            }
-            .swiper-slide-active, .swiper-slide-duplicate-active{
-                transform: scale(1);
             }
             .swiper-slide-active .sharing-intro, .swiper-slide-duplicate-active .sharing-intro{
                 height:160px!important;
