@@ -3,8 +3,9 @@ import { appointmentAxios } from "./axios";
 
 export const postAppointment = (data)=>{
     return appointmentAxios({
-        url:"/appointment",
+        url:"geeksummit/sign",
         data,
-        method:"post"
+        method:"post",
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'}
     })
 }

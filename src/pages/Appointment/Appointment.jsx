@@ -4,7 +4,7 @@ import "./Appointment.scss"
 import { useForm } from "react-hook-form";
 import {postAppointment} from "../../servers/api"
 import Group15 from "../../assets/images/Group15.png"
-import "../../mock"
+import "axios"
 
 export default function Appointment() {
 
@@ -19,18 +19,17 @@ export default function Appointment() {
     formState: { errors }
   } = useForm();
   const onSubmit = async(data) => {
-   const res = await postAppointment(JSON.stringify(data));
+  
+  const res = await postAppointment(JSON.stringify(data));
    console.log(res.data);
-   switch (res.data.status) {
-     case 200:
+   switch (res.data.data) {
+     case "OK":
        setSuccessBlock("none")
        setSuccessNone("block")
        break;
-     case 201:
+     case "repeat":
        setRepeatRemind("block")
-        break;
-     case 404:
-       break;   
+        break;  
      default:
        break;
    }

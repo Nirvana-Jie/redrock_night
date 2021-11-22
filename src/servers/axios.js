@@ -1,10 +1,19 @@
 import axios from "axios";
-import { baseURL } from "./config";
 
 export const appointmentAxios = axios.create({
-    baseURL:baseURL,
-    timeout:2000
+    baseURL:"/api",
+    timeout:3000,
+    headers: {'Content-Type': 'application/json'}
 })
+appointmentAxios.interceptors.request.use(
+    (config) => {
+        return config
+    },
+    (err) => {
+        console.log(err)
+    }
+)
+
 appointmentAxios.interceptors.response.use(
     (config) => {
         console.log(config);

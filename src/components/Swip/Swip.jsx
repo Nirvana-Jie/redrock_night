@@ -7,7 +7,6 @@ import SwiperCore, {Navigation, Pagination, Autoplay} from "swiper"
 SwiperCore.use([Autoplay,Navigation,Pagination])
 export default function Swip(props) {
     const {navigation,pagination,autoplay,showNum,children,autoStop,changeTime} = props 
-    console.log(changeTime);
     return (
         <Swiper
         spaceBetween={10}
