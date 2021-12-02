@@ -5,6 +5,6 @@ Mock.mock('/appointment', 'post', function (option) {
 	return (
 		{
 			status: 200,
-			message: '@cword(4,9)'
+			info: 'OK'
 		})
 })
