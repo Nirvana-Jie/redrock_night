@@ -21,7 +21,7 @@ export default function Appointment() {
   const onSubmit = async(data) => {
   
   const res = await postAppointment(JSON.stringify(data));
-   console.log(res.data);
+   console.log(res);
    switch (res.data.data) {
      case "OK":
        setSuccessBlock("none")
